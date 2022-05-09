@@ -54,6 +54,12 @@ GRPinViewController.present(with: config)
 ## Requirements
 GRPinLocker is written in Swift 5.0. iOS 11.0+ Required
 
+## CocoaPods
+```
+  pod 'GRPinLocker'
+```
+
+
 ## Author
 
 Gaurav Parmar, parmargaurav069@gmail.com
