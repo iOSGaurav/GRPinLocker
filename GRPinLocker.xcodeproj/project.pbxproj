@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F67ECE3282906D600FDD4DC /* GRPinValidateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F67ECE2282906D600FDD4DC /* GRPinValidateDelegate.swift */; };
 		2F945F562826A37100CDBD35 /* GRPinLocker.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F552826A37100CDBD35 /* GRPinLocker.docc */; };
 		2F945F572826A37100CDBD35 /* GRPinLocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F945F542826A37100CDBD35 /* GRPinLocker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F945F5E2826A38400CDBD35 /* GRPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F5D2826A38400CDBD35 /* GRPinViewController.swift */; };
+		2F945F602826A39400CDBD35 /* GRPin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F945F5F2826A39400CDBD35 /* GRPin.storyboard */; };
+		2F945F622826A56A00CDBD35 /* GRPinConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F612826A56A00CDBD35 /* GRPinConstant.swift */; };
+		2F945F642826A78900CDBD35 /* GRConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F632826A78900CDBD35 /* GRConfig.swift */; };
+		2F945F662826A8C100CDBD35 /* GRMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F652826A8C100CDBD35 /* GRMode.swift */; };
+		2F945F682826DF8200CDBD35 /* GRPinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F672826DF8200CDBD35 /* GRPinInputView.swift */; };
+		2F945F6B2826DFB400CDBD35 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F6A2826DFB400CDBD35 /* UIView+Extension.swift */; };
+		2F945F6D2826DFEA00CDBD35 /* GRPinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F945F6C2826DFEA00CDBD35 /* GRPinButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F67ECE2282906D600FDD4DC /* GRPinValidateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPinValidateDelegate.swift; sourceTree = "<group>"; };
 		2F945F512826A37100CDBD35 /* GRPinLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRPinLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F945F542826A37100CDBD35 /* GRPinLocker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRPinLocker.h; sourceTree = "<group>"; };
 		2F945F552826A37100CDBD35 /* GRPinLocker.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GRPinLocker.docc; sourceTree = "<group>"; };
+		2F945F5D2826A38400CDBD35 /* GRPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPinViewController.swift; sourceTree = "<group>"; };
+		2F945F5F2826A39400CDBD35 /* GRPin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GRPin.storyboard; sourceTree = "<group>"; };
+		2F945F612826A56A00CDBD35 /* GRPinConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPinConstant.swift; sourceTree = "<group>"; };
+		2F945F632826A78900CDBD35 /* GRConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRConfig.swift; sourceTree = "<group>"; };
+		2F945F652826A8C100CDBD35 /* GRMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRMode.swift; sourceTree = "<group>"; };
+		2F945F672826DF8200CDBD35 /* GRPinInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPinInputView.swift; sourceTree = "<group>"; };
+		2F945F6A2826DFB400CDBD35 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2F945F6C2826DFEA00CDBD35 /* GRPinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPinButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +65,27 @@
 		2F945F532826A37100CDBD35 /* GRPinLocker */ = {
 			isa = PBXGroup;
 			children = (
+				2F945F692826DF9B00CDBD35 /* Extension */,
 				2F945F542826A37100CDBD35 /* GRPinLocker.h */,
 				2F945F552826A37100CDBD35 /* GRPinLocker.docc */,
+				2F945F5D2826A38400CDBD35 /* GRPinViewController.swift */,
+				2F945F5F2826A39400CDBD35 /* GRPin.storyboard */,
+				2F945F612826A56A00CDBD35 /* GRPinConstant.swift */,
+				2F945F632826A78900CDBD35 /* GRConfig.swift */,
+				2F945F652826A8C100CDBD35 /* GRMode.swift */,
+				2F945F672826DF8200CDBD35 /* GRPinInputView.swift */,
+				2F945F6C2826DFEA00CDBD35 /* GRPinButton.swift */,
+				2F67ECE2282906D600FDD4DC /* GRPinValidateDelegate.swift */,
 			);
 			path = GRPinLocker;
+			sourceTree = "<group>";
+		};
+		2F945F692826DF9B00CDBD35 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F945F6A2826DFB400CDBD35 /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F945F602826A39400CDBD35 /* GRPin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F945F6D2826DFEA00CDBD35 /* GRPinButton.swift in Sources */,
+				2F945F682826DF8200CDBD35 /* GRPinInputView.swift in Sources */,
+				2F67ECE3282906D600FDD4DC /* GRPinValidateDelegate.swift in Sources */,
+				2F945F6B2826DFB400CDBD35 /* UIView+Extension.swift in Sources */,
+				2F945F642826A78900CDBD35 /* GRConfig.swift in Sources */,
 				2F945F562826A37100CDBD35 /* GRPinLocker.docc in Sources */,
+				2F945F662826A8C100CDBD35 /* GRMode.swift in Sources */,
+				2F945F5E2826A38400CDBD35 /* GRPinViewController.swift in Sources */,
+				2F945F622826A56A00CDBD35 /* GRPinConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +315,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,9 +325,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeliners.GRPinLocker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,6 +344,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +354,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeliners.GRPinLocker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
